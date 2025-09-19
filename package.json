@@ -1,0 +1,23 @@
+{
+  "name": "@zhangjiluo.com/my-promise",
+  "version": "1.0.1",
+  "description": "my promise",
+  "type": "commonjs",
+  "scripts": {
+    "test": "promises-aplus-tests ./adapter.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "zhangjiluo.com",
+    "promise"
+  ],
+  "author": "zhangjiluo.com <zhangjiluo.com@gmail.com>",
+  "license": "AGPL-3.0",
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
